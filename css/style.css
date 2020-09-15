@@ -1,0 +1,168 @@
+html {
+    font-size: 62.5%
+}
+
+header{
+    min-height: 100vh;
+    background-image: url("img/plant-2004483.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(4, 25%);
+}
+
+.home{
+    grid-column: span 3;
+    grid-row: 2;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    margin-bottom: 1%;
+}
+
+nav a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    padding: 2%;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: mediumseagreen;
+}
+
+ul {
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+ul > li{
+    padding: 1%;
+}
+
+ul > li > a{
+    color: seagreen;
+}
+
+ul > li > a:hover{
+    color: mediumseagreen;
+}
+
+#up{
+    position: fixed;
+    right: 3%;
+    bottom: 5%;
+    font-size: 5rem;
+    color: seagreen;
+}
+
+section{
+    padding: 2%;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content{
+    width: 70%;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 2%;
+}
+
+.content h2{
+    padding-top: 2%;
+    font-size: 4rem;
+    color: seagreen;
+    margin-bottom: 2%;
+}
+
+h3{
+    padding-top: 3%;
+    font-size: 3rem;
+    color: darkgreen;
+    margin-bottom: 2%;
+}
+
+.content p{
+    font-size: 3rem;
+    line-height: 50px;
+}
+
+.text{
+    margin-left: 5%;
+}
+
+article{
+    margin-top: 3%;
+    width: 40%;
+}
+
+#skills > p, #exp > p, #studies > p{
+    font-size: 2rem;
+}
+
+#exp > p > span{
+    color: greenyellow;
+    font-weight: bolder;
+}
+
+#studies > p > span{
+    color: limegreen;
+    font-weight: bolder;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#about{
+    background-image: url("img/about.jpg");
+    background-position: center;
+}
+
+#work{
+    background-image: url("img/work.jpg");
+}
+
+#projects{
+    background-image: url("img/projects.jpg");
+}
+
+#contact{
+    background-image: url("img/contact.jpg");
+}
+
+form{
+    margin-top: 2%;
+    width: 60%;
+    font-size: 2rem;
+}
+
+.btn{
+    font-size: 2rem;
+}
+
+.card{
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+.card p{
+    font-size: 2rem;
+}
+
+.card .card-title{
+    font-size: 3rem;
+    color: darkgreen;
+}
+
+

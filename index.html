@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eat, Code, Sleep, Repeat</title>
+    <script src="https://kit.fontawesome.com/23d612a455.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="home">
+        <div class="home">
+            <h1>let me <br> = <br> new FrontDev("Camille", "Toulouse")</h1>
+
+            <ul class="navigation">
+                <li><a href="https://www.linkedin.com/in/camille-toulouse-84ba6512a/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/CametDean?tab=repositories" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+
+            <nav>
+                <a href="#about">me.letsTalkAboutMe()</a>
+                <a href="#work">me.speakingAboutWork()</a>
+                <a href="#projects">me.myProjects()</a>
+                <a href="#contact">me.letsSocialize()</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <a href="#home" id="up"><i class="fas fa-arrow-circle-up"></i></a>
+        <section id="about">
+            <div class="content">
+                <h2>about = () =></h2>
+                <p>{</p>
+                <p class="text">return "As part of a professional retraining, I decided to embark on the adventure offered by the web domain. I love to learn continuously and test what I have just learned and deepen it by going to discover new techniques. My training taught me to develop my critical mind, my analytical mind and my logical mind."</p>
+                <p>}</p>
+            </div>
+        </section>
+        <section id="work">
+            <div class="content">
+                <h2>me.speakingAboutWork()</h2>
+                <p>Open your browser console</p>
+                <p>Write me.speakingAboutWork()</p>
+                <p>Discover the result :)</p>
+                <p>Close your browser console</p>
+                <div class="content2"></div>
+            </div>
+        </section>
+        <section id="projects">
+            <div class="content">
+                <h2>me.myProjects()</h2>
+                <p>/*You can find here some projects</p>
+                <p>*which were realized during my studies.</p>
+                <p>*You can also find the code on my repo Github*/</p>
+
+                <div class="card-deck">
+                    <div class="card">
+                        <img src="css/img/dragon-149393_640.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Monster Quest</h5>
+                            <p class="card-text">A princess to save, three doors : which monster will you fight?</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="http://www.monsterquest.camilletoulouse.fr/" target="_blank" class="btn btn-success">Try</a>
+                            <a href="https://github.com/CametDean/JavaScript/tree/master/dragonJQ" target="_blank" class="btn btn-success">Code</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="css/img/paint.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Be An Artist</h5>
+                            <p class="card-text">Reveal your talent with this paint app</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="http://www.beanartist.camilletoulouse.fr/" target="_blank" class="btn btn-success">Try</a>
+                            <a href="https://github.com/CametDean/JavaScript/tree/master/Ardoise2" target="_blank" class="btn btn-success">Code</a>
+                        </div>
+                    </div>
+                    <!--<div class="card">
+                        <img src="css/img/liste.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">TodoList</h5>
+                            <p class="card-text">Fear to forget things? This TodoList app will save your days!</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" target="_blank" class="btn btn-success">Try</a>
+                            <a href="" target="_blank" class="btn btn-success">Code</a>
+                        </div>
+                    </div>-->
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div class="content">
+                <h2>me.letsSocialize()</h2>
+                <p>//Any questions?</p>
+                <form action="php/form.php" method="post">
+                    <div class="form-group">
+                        <label for="lastName" class="font-weight-light">LastName</label>
+                        <input type="text" class="form-control" id="lastName" name="lastName">
+                    </div>
+                    <div class="form-group">
+                        <label for="firstName" class="font-weight-light">FirstName</label>
+                        <input type="text" class="form-control" id="firstName" name="firstName">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="font-weight-light">Email</label>
+                        <input type="email" class="form-control" id="email" name="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="font-weight-light">Your Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                    </div>
+                    <button type="submit" name="btnSubmit" class="btn btn-success p-3">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/FrontDev.js"></script>
+</body>
+</html>
